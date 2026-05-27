@@ -1,0 +1,24 @@
+{
+  "name": "freemusictheoryapp",
+  "private": true,
+  "packageManager": "pnpm@10.30.3",
+  "engines": {
+    "node": ">=22"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  },
+  "scripts": {
+    "dev": "pnpm --filter @music-theory/web dev",
+    "build": "pnpm --filter @music-theory/web build",
+    "preview": "pnpm --filter @music-theory/web preview",
+    "typecheck": "pnpm --filter @music-theory/web exec tsc -b",
+    "test": "pnpm --filter @music-theory/web test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freeappstore-online/music-theory.git"
+  }
+}

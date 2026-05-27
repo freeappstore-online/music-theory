@@ -1,0 +1,10 @@
+export { NOTE_NAMES, FLAT_NAMES, ROOT_NOTES, enharmonicName, noteIndex, noteFrequency, isBlackKey } from "./notes";
+export type { NoteName } from "./notes";
+export { SCALES, INTERVAL_NAMES, SHORT_INTERVAL_NAMES, getScaleNotes } from "./scales";
+export type { ScaleDefinition } from "./scales";
+export { CHORDS, getChordNotes } from "./chords";
+export type { ChordDefinition } from "./chords";
+export { PROGRESSIONS, getIntervalsForQuality } from "./progressions";
+export type { Progression, ChordInProgression } from "./progressions";
+export { KEY_SIGNATURES, CIRCLE_OF_FIFTHS_MAJOR, CIRCLE_OF_FIFTHS_MINOR, MAJOR_KEY_CHORDS } from "./keys";
+export type { KeySignature } from "./keys";
